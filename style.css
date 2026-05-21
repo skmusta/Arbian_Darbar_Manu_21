@@ -172,7 +172,9 @@ body{
   font-size:15px;
   outline:none;
 }
-
+input::-webkit-calendar-picker-indicator{
+  filter:invert(1);
+}
 /* BOOK BUTTON */
 .book-btn{
   padding:14px;
