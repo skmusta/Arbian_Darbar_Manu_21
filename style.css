@@ -163,23 +163,38 @@ body{
 }
 
 /* DATE & TIME FIX */
+.input-group{
+  width:100%;
+}
+
+.input-group label{
+  display:block;
+  margin-bottom:8px;
+  color:#f5b041;
+  font-size:14px;
+}
+
 #date,
 #time{
   width:100%;
-  color:#fff;
+  height:52px;
+  padding:0 14px;
   background:#1b1b1b;
-  appearance:auto;
-  -webkit-appearance:auto;
+  border:1px solid #555;
+  border-radius:12px;
+  color:#fff;
+  font-size:16px;
+
+  appearance:auto !important;
+  -webkit-appearance:auto !important;
 }
 
-/* ICON FIX */
+/* ICON VISIBLE */
 #date::-webkit-calendar-picker-indicator,
 #time::-webkit-calendar-picker-indicator{
   filter:invert(1);
-  cursor:pointer;
   opacity:1;
 }
-
 /* BOOK BUTTON */
 .book-btn{
   width:100%;
